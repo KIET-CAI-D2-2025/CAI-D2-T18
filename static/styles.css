@@ -1,0 +1,175 @@
+/* Resetting default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(45deg, #6e7fdb, #9c5fc7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* Centering content inside the wrapper */
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+/* Container styles */
+.container {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 40px 60px;
+    border-radius: 15px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    max-width: 600px;
+    width: 100%;
+}
+
+/* Header */
+.header h1 {
+    font-size: 2.5em;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+/* Success message styles */
+.success-message {
+    background-color: #28a745;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.success-message h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.success-message p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+.success-message a {
+    font-size: 1.2em;
+    color: #f1f1f1;
+    text-decoration: none;
+}
+
+.success-message a:hover {
+    text-decoration: underline;
+}
+
+/* Option buttons */
+.options {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.option h3 {
+    font-size: 1.7em;
+    font-weight: 500;
+    color: #444;
+    margin-bottom: 10px;
+}
+
+/* File Upload Option */
+.upload input[type="file"] {
+    padding: 10px;
+    background-color: #f3f4f7;
+    border-radius: 8px;
+    border: 2px solid #ddd;
+    margin-bottom: 15px;
+    width: 80%;
+}
+
+.upload .btn {
+    padding: 12px 35px;
+    background-color: #6e7fdb;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease;
+}
+
+.upload .btn:hover {
+    background-color: #5c6fc1;
+}
+
+/* Recording Option */
+.record .btn {
+    padding: 15px 40px;
+    background-color: #9c5fc7;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-size: 1.2em;
+    transition: background-color 0.3s ease;
+}
+
+.record .btn:hover {
+    background-color: #8347a1;
+}
+
+.record .btn:active {
+    background-color: #6e3f8f;
+}
+
+/* Stop button styles */
+.stop-btn {
+    background-color: #f44336;
+}
+
+.stop-btn:hover {
+    background-color: #e32a1a;
+}
+
+.btn-record, .btn-stop, .btn-save {
+    width: 100%;
+    max-width: 300px;
+}
+
+/* Form button positioning */
+.upload-form, .audio-form {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Smooth transition effect */
+button {
+    transition: transform 0.3s ease;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+/* Add animations */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.container {
+    animation: fadeIn 1s ease-out;
+}
