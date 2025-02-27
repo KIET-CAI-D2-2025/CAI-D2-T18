@@ -135,12 +135,6 @@ Contributions are welcome! Feel free to submit a Pull Request (PR) with improvem
 3. Commit your changes  
 4. Push to your fork
 
-## 📬 Contact  
-
-📧 **Email**: your.email@example.com  
-🔗 **LinkedIn**: [your-linkedin-profile](https://linkedin.com/in/yourname)  
-🐙 **GitHub**: [your-github-profile](https://github.com/yourusername)  
-
 ---
 
 ## 🏆 Acknowledgments  
